@@ -24,7 +24,7 @@ jobs:
         run: npm install
 
       - name: Run tests
-        run: npm test
+        run: npm jest
 
       - name: Lint code
         run: npm run lint || echo "No lint script defined"
